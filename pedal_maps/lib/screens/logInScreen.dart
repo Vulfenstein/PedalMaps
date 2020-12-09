@@ -13,6 +13,8 @@ class _LogInScreenState extends State<LogInScreen> {
   String email;
   String password;
   String e;
+  bool logLoading = true;
+  bool signLoading = true;
 
   @override
   Widget build(BuildContext context) {
@@ -80,14 +82,21 @@ class _LogInScreenState extends State<LogInScreen> {
                 ButtonTheme(
                   minWidth: 345.0,
                   height: 50.0,
-                  child: RaisedButton(
+                  child: logLoading ? new RaisedButton(
                     color: Colors.red.shade500,
                     child: Text('Log In'),
                     onPressed: () async {
+                      setState(() {
+                        logLoading = false;
+                      });
                       try {
                         final newUser = await _auth.signInWithEmailAndPassword(
                             email: email, password: password);
                         if (newUser != null) {
+
+                          setState(() {
+                            logLoading = true;
+                          });
                           Navigator.of(context).push(
                             MaterialPageRoute<Null>(
                               builder: (BuildContext context) {
@@ -97,9 +106,14 @@ class _LogInScreenState extends State<LogInScreen> {
                           );
                         }
                       } catch (e) {
+                        setState(() {
+                          logLoading = true;
+                        });
                         print(e);
                       }
                     },
+                  ): Center(
+                    child: CircularProgressIndicator(),
                   ),
                 ),
                 SizedBox(
@@ -108,24 +122,35 @@ class _LogInScreenState extends State<LogInScreen> {
                 ButtonTheme(
                   minWidth: 345.0,
                   height: 50.0,
-                  child: RaisedButton(
+                  child: signLoading ? new RaisedButton(
                     color: Colors.red.shade900,
                     child: Text('Sign Up'),
                     onPressed: () async {
+                      setState(() {
+                        signLoading = false;
+                      });
                       try {
                         final newUser =
                             await _auth.createUserWithEmailAndPassword(
                                 email: email, password: password);
                         if (newUser != null) {
+                          setState(() {
+                            signLoading = true;
+                          });
                           Navigator.of(context).push(MaterialPageRoute<Null>(
                               builder: (BuildContext context) {
                             return new Home();
                           }));
                         }
                       } catch (e) {
+                        setState(() {
+                          signLoading = true;
+                        });
                         print(e);
                       }
                     },
+                  ): Center(
+                    child: CircularProgressIndicator(),
                   ),
                 ),
               ],
