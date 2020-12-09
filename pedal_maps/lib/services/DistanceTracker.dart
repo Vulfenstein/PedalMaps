@@ -3,6 +3,7 @@ import 'package:geolocator/geolocator.dart' as geolocator;
 import 'dart:async';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart' as location;
+import 'dart:math';
 
 class DistanceTracker {
   geolocator.Position _currentPosition;
@@ -104,5 +105,21 @@ class DistanceTracker {
     return positions;
   }
 
-}
+  double getCurrentBearing() {
+    if (positions.length < 2) {
+      return 180;
+    }
+    double x, y, B, dL;
+    LatLng b = positions.last;
+    LatLng a = positions[positions.length - 2];
 
+    dL = a.longitude - b.longitude;
+
+    x = cos(b.latitude) * sin(dL);
+    y = cos(a.latitude) * sin(b.latitude) -
+        sin(a.latitude) * cos(b.latitude) * cos(dL);
+    B = atan2(x, y);
+    B = B * 180 / pi;
+    return B;
+  }
+}

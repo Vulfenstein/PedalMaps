@@ -69,11 +69,14 @@ class _DistanceTraveled extends State<DistanceTraveled> {
 
       locationStream = currentLocation.onLocationChanged.listen((newLocalData) {
         if (mapController != null) {
-          mapController.animateCamera(CameraUpdate.newCameraPosition(
+          mapController.animateCamera(
+            CameraUpdate.newCameraPosition(
               new CameraPosition(
-                  bearing: 192.8,
+                  bearing: _tracker.getCurrentBearing(),
                   target: LatLng(newLocalData.latitude, newLocalData.longitude),
-                  zoom: 14.00),),);
+                  zoom: 17.00),
+            ),
+          );
         }
       });
     }
