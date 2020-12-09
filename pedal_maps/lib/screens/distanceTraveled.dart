@@ -161,7 +161,7 @@ class _DistanceTraveled extends State<DistanceTraveled> {
             Container(
               child: GoogleMap(
                 initialCameraPosition: CameraPosition(
-                    target: LatLng(39.7285, -121.837479), zoom: 16.00),
+                    target: LatLng(39.7285, -121.837479), zoom: 25.00),
                 markers: Set.of((marker != null) ? [marker] : []),
                 polylines: _tracker.getPolylines(),
                 onMapCreated: (GoogleMapController controller) {
