@@ -95,7 +95,6 @@ class _TrailPageState extends State<TrailPage> {
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.black,
-                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   SizedBox(
@@ -106,7 +105,6 @@ class _TrailPageState extends State<TrailPage> {
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.black,
-                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   SizedBox(
@@ -117,7 +115,6 @@ class _TrailPageState extends State<TrailPage> {
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.black,
-                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],
