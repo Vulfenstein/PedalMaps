@@ -61,7 +61,7 @@ class _TrailPageState extends State<TrailPage> {
               child: GoogleMap(
                 initialCameraPosition: CameraPosition(
                   target: points[0],
-                  zoom: 16,
+                  zoom: 16.5,
                 ),
                 zoomGesturesEnabled: true,
                 onMapCreated: (GoogleMapController controller) {
