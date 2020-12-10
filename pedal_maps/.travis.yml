@@ -1,5 +1,0 @@
-language: dart
-dart:
-  - stable
-script:
-  - dart test/stopwatch_test.dart

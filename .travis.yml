@@ -1,0 +1,14 @@
+language: dart
+addons:
+  apt:
+    packages:
+      - lib32stdc++6
+install:
+  - git clone https://github.com/flutter/flutter.git -b stable
+  - ./flutter/bin/flutter doctor
+script:
+  - ./flutter/bin/flutter pub get
+  - ./flutter/bin/flutter pub run test pedal_maps/test/stopwatch_test.dart
+cache:
+  directories:
+    - $HOME/.pub-cache
