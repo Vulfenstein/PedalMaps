@@ -1,0 +1,27 @@
+# Copyright (c) 2018, the Dart project authors.  Please see the AUTHORS file
+# for details. All rights reserved. Use of this source code is governed by a
+# BSD-style license that can be found in the LICENSE file.
+#
+# Google internally enforced rules. See README.md for more information,
+# including a list of lints that are intentionally _not_ enforced.
+#
+# Include this file if you want to always use the latest version. If your
+# continuous build and/or presubmit check lints then they will likely fail
+# whenever a new version of `package:pedantic` is released. To avoid this,
+# specify a specific version of `analysis_options.yaml` instead.
+
+include: package:pedantic/analysis_options.1.9.0.yaml
+
+analyzer:
+  plugins:
+    - dart_code_metrics
+
+# only interested in cyclomatic complexity so other values set so only complexity is triggered in output
+dart_code_metrics:
+  metrics:
+    cyclomatic-complexity: 0
+    lines-of-executable-code: 500
+    maximum-nesting: 10
+    number-of-methods: 20
+  metrics-exclude:
+    - test/**
