@@ -111,7 +111,7 @@ Flutter will be required to run application.
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/ChicoState/PedalMaps/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
