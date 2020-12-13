@@ -59,7 +59,7 @@
   <img src="pedal_maps/assets/UniquePageScreen.png" width="240" height="490" />
 </p>
 
-Pedal Maps is an Android and IOS application capable of finding a users location and recording a bike trail they 
+  Pedal Maps is an Android and IOS application capable of finding a users location and recording a bike trail they 
 imbark on. As the user travels polylines are drawn onto the map while as well as a timer and milage. When the ride is 
 complete the user can save the ride. The user can give the trail a name, rating, and gravel type. The trail is saved to firebase 
 and can then be viewed on the nearby trails screen. The nearby trails screen shows the complete trail, along with bullet points.
@@ -69,7 +69,7 @@ and can then be viewed on the nearby trails screen. The nearby trails screen sho
 
 * [Flutter](https://flutter.dev/)
 * [Firebase](https://firebase.google.com/)
-* [Google Cloud](https://console.cloud.google.com/)
+* [Google Cloud Services](https://console.cloud.google.com/)
 
 
 <!-- GETTING STARTED -->
@@ -115,6 +115,7 @@ Flutter will be required to run application.
 ## Roadmap
 
 * See the [open issues](https://github.com/ChicoState/PedalMaps/issues) for a list of proposed features (and known issues).
+
 * [Kanban Board](https://github.com/ChicoState/PedalMaps/projects/1)
 
 
@@ -144,5 +145,6 @@ Project Link: [https://github.com/ChicoState/PedalMaps](https://github.com/Chico
 ## Acknowledgements
 
 * [Flutter Crash Course](https://www.udemy.com/course/flutter-bootcamp-with-dart/)
+
 * [Readme Template](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md)
 
