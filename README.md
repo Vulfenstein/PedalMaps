@@ -6,7 +6,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="pedal_maps/assets/PedalMapsLogo.png" alt="Logo" width="480" height="480">
+    <img src="pedal_maps/assets/PedalMapsLogo.png" alt="Logo" width="280" height="280">
   </a>
 
   <h3 align="center">Pedal Maps</h3>
