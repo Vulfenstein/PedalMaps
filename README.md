@@ -12,7 +12,7 @@
   <h3 align="center">Pedal Maps</h3>
 
   <p align="center">
-    Bike trail tracking application, record trails and view nearby trails
+    Record and view bike trails
     <br />
     <a href="https://github.com/ChicoState/PedalMaps/issues">Report Bug</a>
     ·
@@ -60,7 +60,7 @@
 </p>
 
   Pedal Maps is an Android and IOS application capable of finding a users location and recording a bike trail they 
-imbark on. As the user travels polylines are drawn onto the map while as well as a timer and milage. When the ride is 
+imbark on. As the user travels, polylines are drawn onto the map as well as a timer and milage to track. When the ride is 
 complete the user can save the ride. The user can give the trail a name, rating, and gravel type. The trail is saved to firebase 
 and can then be viewed on the nearby trails screen. The nearby trails screen shows the complete trail, along with bullet points.
 
