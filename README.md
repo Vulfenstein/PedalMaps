@@ -97,7 +97,7 @@ Flutter will be required to run application.
    
 2. Google Maps API
    ```sh
-   https://cloud.google.com/maps-platform/
+   https://pub.dev/packages/google_maps_flutter
    ```
  
 3. Firebase API
