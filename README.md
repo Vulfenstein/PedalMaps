@@ -53,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p float="left">
+<p float="center">
   <img src="pedal_maps/assets/LoginScreen.png" width="250" height="400" />
   <img src="pedal_maps/assets/TrackRideScreen.png" width="250" height="400" /> 
   <img src="pedal_maps/assets/UniquePageScreen.png" width="250" height="400" />
