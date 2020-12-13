@@ -54,9 +54,9 @@
 ## About The Project
 
 <p float="center">
-  <img src="pedal_maps/assets/LoginScreen.png" width="250" height="400" />
-  <img src="pedal_maps/assets/TrackRideScreen.png" width="250" height="400" /> 
-  <img src="pedal_maps/assets/UniquePageScreen.png" width="250" height="400" />
+  <img src="pedal_maps/assets/LoginScreen.png" width="240" height="450" />
+  <img src="pedal_maps/assets/TrackRideScreen.png" width="240" height="450" /> 
+  <img src="pedal_maps/assets/UniquePageScreen.png" width="240" height="450" />
 </p>
 
 Pedal Maps is an Android and IOS application capable of finding a users location and recording a bike trail they 
