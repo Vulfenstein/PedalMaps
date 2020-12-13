@@ -92,7 +92,7 @@ Flutter will be required to run application.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/ChicoState/PedalMaps.git
    ```
    
 2. Google Maps API
