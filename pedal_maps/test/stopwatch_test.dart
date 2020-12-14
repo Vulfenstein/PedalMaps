@@ -26,13 +26,36 @@ void main(){
     expect(result, true);
   });
 
-  test("Add second", (){
+  test("Add second Not Started", (){
+    Stopwatch stop = Stopwatch();
+    for(int i = 0; i < 10; i++){
+      stop.addSecond(0);
+    }
+    expect(stop.counter, equals(0));
+
+  });
+
+  test("Add second Started", (){
     Stopwatch stop = Stopwatch();
     stop.startpressed = true;
     for(int i = 0; i < 10; i++){
       stop.addSecond(0);
     }
     expect(stop.counter, equals(10));
+
+  });
+
+  test("Add second Paused", (){
+    Stopwatch stop = Stopwatch();
+    stop.startpressed = true;
+    for(int i = 0; i < 21; i++){
+      stop.addSecond(0);
+    }
+    stop.pausepressed = true;
+    for(int i = 0; i < 10; i++){
+      stop.addSecond(0);
+    }
+    expect(stop.counter, equals(21));
 
   });
 
