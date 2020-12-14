@@ -6,7 +6,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="pedal_maps/assets/PedalMapsLogo.png" alt="Logo" width="280" height="280">
+    <img src="assets/PedalMapsLogo.png" alt="Logo" width="280" height="280">
   </a>
 
   <h3 align="center">Pedal Maps</h3>
@@ -54,9 +54,9 @@
 ## About The Project
 
 <p float="center">
-  <img src="pedal_maps/assets/LoginScreen.png" width="240" height="490" />
-  <img src="pedal_maps/assets/TrackRideScreen.png" width="240" height="490" /> 
-  <img src="pedal_maps/assets/UniquePageScreen.png" width="240" height="490" />
+  <img src="assets/LoginScreen.png" width="240" height="490" />
+  <img src="assets/TrackRideScreen.png" width="240" height="490" /> 
+  <img src="assets/UniquePageScreen.png" width="240" height="490" />
 </p>
 
   Pedal Maps is an Android and IOS application capable of finding a users location and recording a bike trail they 
