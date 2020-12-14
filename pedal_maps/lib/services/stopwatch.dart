@@ -1,4 +1,5 @@
 import 'dart:async';
+// ignore_for_file: code-metrics
 
 //adopted from https://medium.com/analytics-vidhya/build-a-simple-stopwatch-in-flutter-a1f21cfcd7a8
 

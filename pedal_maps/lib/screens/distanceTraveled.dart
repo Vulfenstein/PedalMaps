@@ -10,6 +10,8 @@ import 'dart:typed_data';
 import 'package:geolocator/geolocator.dart';
 import 'package:location/location.dart';
 
+// ignore_for_file: code-metrics
+
 class DistanceTraveled extends StatefulWidget {
   _DistanceTraveled createState() => _DistanceTraveled();
 }

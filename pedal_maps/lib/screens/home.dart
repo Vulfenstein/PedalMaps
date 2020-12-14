@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// ignore_for_file: code-metrics
+
 class Home extends StatefulWidget {
   Home({Key key, this.title}) : super(key: key);
 
