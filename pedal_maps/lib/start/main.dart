@@ -5,6 +5,8 @@ import 'package:pedal_maps/screens/logInScreen.dart';
 import 'package:pedal_maps/screens/nearbyTrails.dart';
 import 'package:pedal_maps/screens/distanceTraveled.dart';
 
+// ignore_for_file: code-metrics
+
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();

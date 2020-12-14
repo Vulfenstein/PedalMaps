@@ -5,6 +5,8 @@ import 'package:flutter/services.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
 
+// ignore_for_file: code-metrics
+
 class Map extends StatefulWidget {
   @override
   _Map createState() => _Map();

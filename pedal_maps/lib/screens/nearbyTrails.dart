@@ -3,6 +3,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:pedal_maps/screens/trailScreen.dart';
 
+// ignore_for_file: code-metrics
+
 class NearbyTrails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

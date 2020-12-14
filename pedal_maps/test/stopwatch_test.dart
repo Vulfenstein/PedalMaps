@@ -1,7 +1,7 @@
 import '../lib/services/stopwatch.dart';
 import "package:test/test.dart";
 
-
+// ignore_for_file: code-metrics
 void main(){
 
   test("Stopwatch started", (){
